@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+}
+img {
+    display: block;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 1030px;
+    margin-right: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+#busca {
+    display: flex;
+    width: 490px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#busca button {
+    height: 36px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 18px;
+    background-color: #f5f5f5;
+}
+
+input {
+    margin: auto;
+    height: 36px;
+    width: 480px;
+    border-radius: 25px;
+    border: solid 1px gray;
+}
+
+footer {
+    margin-top: 21.8vh;
+}
+
+footer div {
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+footer p {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+#lista{
+    padding: 5px;
+    border-top: solid 2px gainsboro;    
+}
+
+#lista ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+#lista ul li {
+    display: inline-block;
+}
